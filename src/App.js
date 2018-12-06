@@ -6,7 +6,6 @@ import '../node_modules/jquery/dist/jquery.min.js';
 import '../node_modules/react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.css';
 import '../node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.css';
 import '../node_modules/react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit.css';
-import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit';
 import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory,{ textFilter } from 'react-bootstrap-table2-filter';
 
@@ -42,8 +41,6 @@ class App extends Component {
     }
 
   render() {
-
-    const { SearchBar } = Search;
 
     const columns = [{
       dataField: 'app',
